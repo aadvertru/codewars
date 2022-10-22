@@ -1,0 +1,18 @@
+var capitals = function (word) {
+  let result = []
+  word.split('').forEach(
+    (letter, index) => (letter === letter.toLowerCase()) ? null : result.push(index)
+    )
+  console.log(
+    result
+  )
+
+}
+
+capitals('CodEWArS')
+
+// var capitals = function (word) {
+//   return word.split('').reduce(function(n, l, i){
+//     return /[A-Z]/.test(l) && n.push(i), n;
+//   }, []);
+// };
