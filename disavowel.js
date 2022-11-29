@@ -7,5 +7,4 @@ function disemvowel(str) {
     console.log(str)
     //return str;
   }
-
 disemvowel(someString)
