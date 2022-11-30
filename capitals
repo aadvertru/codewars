@@ -8,7 +8,7 @@ var capitals = function (word) {
   )
 
 }
-
+ 
 capitals('CodEWArS')
 
 // var capitals = function (word) {
